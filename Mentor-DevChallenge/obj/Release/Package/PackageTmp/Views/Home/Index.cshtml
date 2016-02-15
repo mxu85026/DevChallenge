@@ -1,0 +1,66 @@
+﻿
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dev Challenge</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">dr. shurt's office</a></li>
+                <li><a href="#tab2" data-toggle="tab">hillsboro</a></li>
+            </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane active in" id="tab1">
+                <form class="row">
+                    <div class="form-group col-lg-3">
+                        <label class="subtitle">Member ID</label>
+                        <input type="number" class="input" placeholder="12345678" />
+                    </div>
+                    <div class="form-group col-lg-3">
+                        <label class="subtitle">Name</label>
+                        <input type="text" class="input" placeholder="Last, First" />
+                    </div>
+                    
+                    <div class="form-group col-lg-3">
+                        <label class="subtitle">Eligibility Start Date</label>
+                        <input type="datetime" class="input" placeholder="MM/DD/YYYY" />
+                    </div>
+                    <div class="form-group col-lg-3">
+                        <label class="subtitle">Insurance Carrier</label>
+                        <input type="text" class="input" value="Williamette Health Alliance" />
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+
+                    <div class="tab-pane">
+                        <div class="form-group col-lg-3">
+                            <label class="subtitle">Primary Care Provider</label><br />
+                            <input type="checkbox" id="item1" /> <label for="item1">Dr.Shurt's Office</label><br />
+                            <input type="checkbox" id="item2"/> <label for="item2">Rose City Clinic</label><br />
+                            <input type="checkbox" id="item3" /><label for="item3">Hillsboro Northside</label><br />
+
+                        </div>
+                        <div class="form-group col-lg-3">
+                            <label class="subtitle">Status</label><br />
+                                <input type="checkbox" id="opt1"/><label for="opt1">Eligible</label><br />
+                                <input type="checkbox" id="opt2" /><label for="opt2">Ineligible</label><br />
+                                <input type="checkbox" id="opt3"/><label for="opt3">Termed</label><br />
+                            </div>
+                        </div>
+                   
+                </form>
+            </div>
+            <div class="tab-pane fade" id="tab2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="~/Scripts/bootstrap.js"></script>
+
+</body>
+</html>

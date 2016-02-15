@@ -1,0 +1,113 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: avenir-light-webfont;
+    color: #585858;
+}
+
+.container{
+    width: 80%;
+}
+
+p{
+    font-size:16px;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.nav-tabs{
+    border-bottom:solid #45A8D3 2px;
+    padding-bottom:1px;
+}
+
+/*styling for nav tabs*/
+.nav-tabs li a {
+    width: 225px;
+    height: 50px;
+    background-color: #D8EDF5;
+    color:#45A8D3;
+    line-height:2.1;
+    text-align: left;
+    border-radius: 0;
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: white;
+    background-color: #45A8D3;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+
+@font-face {
+    font-family: 'avenir-light-webfont';
+    src: url('../fonts/avenir-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir-Medium-webfont';
+    src: url('../fonts/Avenir-Medium-webfont.woff') format('woff');
+}
+
+.input{
+    width: 225px;
+    height: 40px;
+    border: 1px solid #45A8D3;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.tab-pane{
+    padding-top:55px;
+}
+
+.subtitle{
+    font-size:14px;
+    font-family:Avenir-Medium-webfont;
+    font-weight:500;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label:before{
+    border: 1px solid #45A8D3;
+    background-color:white;
+    content:"";
+    display:inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+
+input[type=checkbox]:checked + label:before{
+    border: 3px solid #45A8D3;
+    background-color: #585858;
+}
+
+label{
+    font-size: 16px;
+    font-weight: normal;
+}
